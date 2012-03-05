@@ -12,8 +12,7 @@ For now, it is only working on OSX Lion.
 ## Installing
     git clone git://github.com/rodrigoflores/Mercury.git
     cd Mercury
-    git submodule init
-    git submodule update 
+    git submodule update --init
     make
 
 ## To load in an Erlang app
